@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+/* USE OF  POSITION KEYWORD   */
+#Static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+    /* last line have no effect in because static key has been used afetr this nhothing can be changed */
+}
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+/* used to parmanently fix that element on screen
+ no vanish on scrolling */
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}

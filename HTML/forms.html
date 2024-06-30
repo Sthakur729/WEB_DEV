@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="/action">
+
+<div>
+     <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter email" name="email">
+</div>
+       <br>
+
+<div>
+     <label for="password">Password:</label>
+    <input type="password" placeholder="Enter password" id="password" name="pass">
+</div>
+       <br>
+
+<div>
+    <label for="time">Set Time</label>
+     <input type="time" id="time">
+</div>
+    <br>
+
+<div>
+    <label for="color">Choose Color</label>
+    <input type="color" id="color">
+</div>
+   <br>
+<!-- CHECKBOX BUTTON -->
+<div>
+    <input type="checkbox" name="age" id="age" checked>
+    <label for="age">I am 18+</label>
+
+    <input type="checkbox" name="age" id="age2" >
+    <label for="age2">I am 18/below 18</label>
+    
+</div>
+   <br>
+
+   <!-- RADIO BUTTONS -->
+<div>
+    <input type="radio" name="gender" id="gender">
+    <label for="gender">male</label>
+
+    <input type="radio" name="gender" id="gender2">
+    <label for="gender2">female</label>
+<!-- similarly we can do to this for cheackbox -->
+</div>
+<br>
+
+<div>
+    <!-- DROP DOWN MENUE -->
+    choose your  profession:
+    <select name="profession" id="profession">\
+    <option >Choose option</option>
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+    <option value="faculty">Other faculty</option>
+    </select>
+</div>
+<br>
+
+<div>
+    <!-- RANGE  TYPE INPUT -->
+    <label for="range">DSA solving abilty: </label>
+    <input type="range" min="0" max="100" name="range" id="range" step="10">
+</div>
+<br>
+
+<div>
+    <label for="feedback">Feedback</label>
+    <textarea name="feedback"  name="feedback" id="feedback" rows="3" cols="20" placeholder="write your feedback here!"></textarea>
+</div>
+<div>
+     <button type="submit">submit</button>
+   <button type="reset">reset</button>
+</div>
+ 
+</form>
+</body>
+</html> 

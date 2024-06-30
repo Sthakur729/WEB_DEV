@@ -1,0 +1,22 @@
+/* BOX SHADOW */
+#div1{
+    width: 200px;
+    height: 100px;
+    background-color: greenyellow ;
+    margin: 10px auto;
+    box-shadow: 2px 3px 20px red;
+    /* HERE 2px is x offset 3px is right offset
+     and 20px is shadow blur intensity high the number higher the blur */
+}
+/* BACKGROUND IMAGE */
+#div2{
+    height: 200px;
+    width: 400px;
+    background-color: gold;
+    margin: auto;
+    background-image: url("spotlight.jpg");
+    background-size: cover;
+    color: white;
+    
+
+}

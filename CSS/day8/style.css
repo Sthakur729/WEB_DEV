@@ -1,0 +1,46 @@
+/* use of alpha i.e a */
+#div1{
+    height: 50px;
+    width: 200px;
+    border: 2px solid aquamarine;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    background-color: rgba(255, 105, 180,0.8);
+    /* here a in rgba denotes the color intensity */
+    transition:margin-top 1.5s ease-in-out 0.2s;
+}
+/* use of opacity */
+#div2{
+   height: 200px;
+   width: 200px;
+   border: 2px solid magenta;
+   padding-top: 10px;
+   padding-left: 5px;
+   background-color: rgb(61, 193, 193);
+   opacity: 0.5;
+   /* here opacity affect all element under div where as alpha do not */
+  
+}
+#b1{
+    background-color: rgba(135, 72, 180, 0.8);
+}
+#b2{
+    background-color: bisque;
+}
+
+/* TRANSITIONS */
+#div1:hover{
+    
+    margin-top: 200px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    
+}
+#b1:hover{
+    transition: 0.3s;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+

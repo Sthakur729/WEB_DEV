@@ -1,0 +1,38 @@
+#border{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+#face{
+    height: 298px;
+    width: 298px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color:#ffa511;
+}
+#l-eye ,#r-eye{
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: black; 
+    display: inline-block;
+    margin-right: 40px;
+    position: absolute;
+    left:82px ;
+    top: 100px;
+}
+#r-eye{
+    left: 192px;
+}
+#mouth{
+    width: 150px;
+    height: 75px;
+    border: solid red;
+    background-color: red;
+   border-radius: 0px 0px 75px 75px;
+    position: absolute;
+    top: 200px;
+    left: 82px;
+   
+}

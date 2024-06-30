@@ -1,0 +1,49 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+ 
+   /* animation-name: fontAnimation ;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-direction:normal; */
+    /* OR */
+
+    animation: fontAnimation 3s ease-in 0s infinite normal;
+}
+@keyframes fontAnimation{
+    /* from{
+        font-size: 20px;
+        background-color: rgb(50, 213, 213);
+        width: 10px;
+    }
+    to{
+        font-size: 40px;
+        background-color: aquamarine;
+        width: 300px;
+        border-radius: 15px;
+    } */
+
+    /* OR */
+    0%{
+        background-color: aqua;
+        color: white;
+    }
+    40%{
+        background-color: brown;
+    }
+    76%{
+        background-color: red;
+    }
+    95%{
+        background-color: aquamarine;
+    }
+
+h2{
+    color:mediumseagreen;
+}
+
+
+}

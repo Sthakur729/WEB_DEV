@@ -1,0 +1,30 @@
+#outer{
+    height: 200px ;
+    width:70px;
+    border: 5px solid black;
+
+}
+#o{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 10px;
+    background-color:crimson;
+}
+#t{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 10px;
+    background-color:yellow;
+}
+#th{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 10px;
+    background-color:greenyellow;
+}
